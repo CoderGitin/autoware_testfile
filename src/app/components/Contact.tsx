@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 export default function ContactForm() {
   return (
-    <div className="min-h-screen bg-white flex items-center justify-center p-6 pr-10">
+    <div className="min-h-screen bg-white flex items-center justify-center p-6 pr-10 mr-5">
       <div className="grid md:grid-cols-2 gap-12 w-full max-w-6xl">
         {/* Left Side */}
         <div className="flex flex-col justify-center items-start mr-7 ml-[-40px]">
