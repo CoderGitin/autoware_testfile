@@ -41,7 +41,7 @@ export default function ContactForm() {
         
             <div className="absolute inset-0 bg-blue-500 rounded-lg transform translate-x-64 translate-y-[-70px] h-[560px] w-[400px]">
             <Image
-                src="/images/ladyimg.png"
+                src="/images/Vector.png"
                 alt="Lady Image"
                 width={120}
                 height={140}
