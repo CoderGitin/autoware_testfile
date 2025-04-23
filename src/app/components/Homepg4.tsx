@@ -53,7 +53,8 @@ export default function InformativeBlogsContact() {
           centeredSlides={true}
           pagination={{ clickable: true }}
           breakpoints={{
-            0: { slidesPerView: 3 },
+            0: { slidesPerView: 1 },
+            640: { slidesPerView: 2 },
             1024: { slidesPerView: 3 },
           }}
           className="px-4 overflow-visible min-h-[580px]"
@@ -75,7 +76,8 @@ export default function InformativeBlogsContact() {
                  {blogData.description.part2} <br />
                  {blogData.description.part3} 
                   </p>
-                  <button className=" text-black  underline text-[17px] px-1 py-1   ">Read more </button><span className=" font-bold text-blue-500"> ↗ </span>
+                  <button className=" text-black  underline text-[17px] px-1 py-1   ">Read more </button>
+                    <span className="font-bold text-blue-500 absolute  text-2xl transform rotate-315">→</span>
                 </div>
                 </div>
             </SwiperSlide>

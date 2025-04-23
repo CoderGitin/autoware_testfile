@@ -34,7 +34,7 @@ export default function PricingPage() {
               </p>
             </div>
             <button className="mt-28 text-black hover:underline ">
-              Learn More <span className="text-blue-500 font-bold">↗ </span>
+              Learn More <span className="font-bold text-blue-500 absolute  text-2xl transform rotate-315  translate-y-[-5px]">→</span>
             </button>
           </div>
 
@@ -57,7 +57,7 @@ export default function PricingPage() {
               </p>
             </div>
             <button className="mt-28 text-black hover:underline ">
-              Learn More <span className="text-blue-500 font-bold">↗ </span>
+              Learn More <span className="font-bold text-blue-500 absolute  text-2xl transform rotate-315  translate-y-[-5px]">→</span>
             </button>
           </div>
 
@@ -84,7 +84,7 @@ export default function PricingPage() {
               </p>
             </div>
             <button className="mt-22 text-black hover:underline ">
-              Learn More <span className="text-blue-500 font-bold">↗ </span>
+              Learn More <span className="font-bold text-blue-500 absolute  text-2xl transform rotate-315  translate-y-[-5px]">→</span>
             </button>
           </div>
 
@@ -105,7 +105,7 @@ export default function PricingPage() {
               </p>
             </div>
             <button className="mt-23 text-black hover:underline ">
-              Learn More <span className="text-blue-500 font-bold">↗ </span>
+              Learn More <span className="font-bold text-blue-500 absolute  text-2xl transform rotate-315  translate-y-[-5px]">→</span>
             </button>
           </div>
         </div>
