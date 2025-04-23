@@ -197,12 +197,12 @@ export default function PricingPage() {
         </div>
       </section>
       {/* Pricing Plans */}
-      <section className="py-13 pr-44 mx-19">
-        <div className="max-w-9xl mx-auto text-center">
+      <section className="py-13 pr-44 mx-29">
+        <div className="max-w-8xl mx-auto text-center">
           <h2 className="text-[47px] pl-34 pt-5 mb-12 mt-5 font-semibold ">
             Pricing Plans
           </h2>
-          <div className="grid md:grid-cols-3 gap-60 mx-7 ">
+          <div className="grid md:grid-cols-3 gap-80 mr-10 ml-4 ">
             {/* Basic Plan */}
             <div className="border rounded-4xl p-6 shadow-sm border-[#9BC7FF] transition w-[460px] h-[600px]">
               <h3 className="text-2xl font-bold  mb-2 mr-0 text-left">
