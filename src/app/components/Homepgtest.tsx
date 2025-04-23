@@ -45,7 +45,7 @@ const testimonials = [
 
 export default function HomepgTest() {
   return (
-    <div className="bg-blue-50 pt-20 pb-24 px-4 text-center overflow-visible mx-5">
+    <div className="bg-blue-50 pt-20 pb-24 px-4 text-center overflow-visible ">
       <h2 className="text-3xl font-bold text-gray-800 mb-10">Testimonial</h2>
 
       <div className="relative overflow-visible">
