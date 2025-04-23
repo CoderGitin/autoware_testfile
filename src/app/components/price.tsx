@@ -202,7 +202,7 @@ export default function PricingPage() {
           <h2 className="text-[47px] pl-34 pt-5 mb-12 mt-5 font-semibold">
             Pricing Plans
           </h2>
-          <div className="grid md:grid-cols-3 gap-58 ">
+          <div className="grid md:grid-cols-3 gap-51 mx-6 ">
             {/* Basic Plan */}
             <div className="border rounded-4xl p-6 shadow-sm border-[#9BC7FF] transition w-[460px] h-[600px]">
               <h3 className="text-2xl font-bold  mb-2 mr-0 text-left">

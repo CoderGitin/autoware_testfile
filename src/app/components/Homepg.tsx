@@ -30,24 +30,30 @@ export default function Homepg() {
               Get Started
             </button>
             <button className="flex items-center space-x-2 text-blue-500 bg-white py-1 px-7 w-auto rounded-2xl border font-inter">
-                <span className="flex items-center justify-center  w-6 h-6 rounded-full bg-blue-500 text-white text-[10px]">
-                ▶
-                </span>
+                    <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-500 text-white text-[10px]">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" width="14" height="14">
+                      <path d="M8 5v14l11-7z" />
+                    </svg>
+                    </span>
               <span>Watch Demo</span>
             </button>
           </div>
           <div className="flex items-center space-x-4 py-3">
             <div className="flex items-center space-x-2">
             <span className="flex items-center justify-center  w-4 h-4 rounded-full bg-blue-500 text-white text-[10px]">
-                ✔
-                </span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" width="12" height="12">
+                <path d="M20.285 6.707l-11.285 11.285-5.285-5.285 1.414-1.414 3.871 3.871 9.871-9.871z"/>
+              </svg>
+            </span>
               
               <span>On-Demand Support</span>
             </div>
             <div className="flex items-center space-x-2">
             <span className="flex items-center justify-center  w-4 h-4 rounded-full bg-blue-500 text-white text-[10px]">
-                ✔
-                </span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" width="12" height="12">
+                <path d="M20.285 6.707l-11.285 11.285-5.285-5.285 1.414-1.414 3.871 3.871 9.871-9.871z"/>
+              </svg>
+            </span>
               <span>Seamless Email Technology</span>
             </div>
           </div>
