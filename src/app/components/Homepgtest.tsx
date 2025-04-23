@@ -51,7 +51,7 @@ export default function HomepgTest() {
       <div className="relative overflow-visible">
         <Swiper
           modules={[Pagination]}
-          spaceBetween={-1080 } // tighter space between slides
+          spaceBetween={-900 } // tighter space between slides
           slidesPerView={1}
   centeredSlides={true}
   slidesPerGroup={1}
