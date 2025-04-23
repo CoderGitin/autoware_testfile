@@ -64,15 +64,15 @@ export default function HomepgTest() {
           {testimonials.map((testimonial, index) => {
             const curveStyle =
               index === 0
-                ? "rotate-[-9deg] translate-y-4"
+                ? "rotate-[-9deg] translate-y-10"
                 : index === 2
-                ? "rotate-[9deg] translate-y-4"
+                ? "rotate-[9deg] translate-y-10"
                 : "border border-blue-400";
 
             return (
               <SwiperSlide key={index} className="overflow-visible">
                 <div
-                  className={`bg-white p-8 rounded-[2rem] shadow-lg transition duration-300 w-[390px] h-[390px] mx-auto ${curveStyle}`}
+                  className={`bg-white p-8  rounded-[2rem] shadow-lg transition duration-300 w-[390px] h-[390px] mx-auto ${curveStyle}`}
                 >
                   <div className="flex items-center space-x-4 mb-4">
                     <img
