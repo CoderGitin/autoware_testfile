@@ -16,9 +16,9 @@ export default function PricingPage() {
           Put the spotlight on the
           <p>main features</p>
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-9 px-4 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-9 px-4 py-12 ml-2 mr-4">
           {/* Box 1 */}
-          <div className="bg-[#F1F8FF] h-[390px] py-6 px-5 rounded-3xl text-left">
+          <div className="bg-[#F1F8FF] h-[390px] py-5 px-4 rounded-3xl text-left">
             <Image
               src="/images/icon1.png"
               alt="icon1"
