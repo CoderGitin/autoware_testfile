@@ -51,14 +51,12 @@ export default function HomepgTest() {
       <div className="relative overflow-visible">
         <Swiper
           modules={[Pagination]}
-          spaceBetween={-180 } // tighter space between slides
-          slidesPerView={3}
-          centeredSlides={true}
-          pagination={{ clickable: true }}
-          breakpoints={{
-            0: { slidesPerView: 1 },
-            768: { slidesPerView: 3 }
-          }}
+          spaceBetween={-1080 } // tighter space between slides
+          slidesPerView={1}
+  centeredSlides={true}
+  slidesPerGroup={1}
+  pagination={{ clickable: true }}
+         
           className="overflow-visible min-h-[560px]"
         >
           {testimonials.map((testimonial, index) => {
