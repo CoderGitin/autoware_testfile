@@ -52,7 +52,7 @@ export default function HomepgTest() {
       <h2 className="text-3xl font-bold text-gray-800 mb-10">Testimonial</h2>
 
       <Swiper
-  modules={[Pagination]}
+  modules={[Pagination, Mousewheel]}
   spaceBetween={-50}
   slidesPerView={3}
   centeredSlides={true}
